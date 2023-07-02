@@ -1,0 +1,41 @@
+.app{
+  display: flex;
+  padding: 10px;
+}
+.score-board{
+  display: flex;
+  margin-top: -35px;
+  margin-left: 140px ;
+}
+.logo1
+{ 
+  display: none;
+  width: 100px;
+  height: 100px;
+
+}
+.number{
+  display: flex;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.chart{
+  background-color: white;
+  border: 10px solid lightblue;
+  display: flex;
+  height: 570px;
+  width: 570px;
+  flex-wrap:wrap;
+  margin-left: 200px;
+  margin-top:50px;
+}
+body{
+  background-image: url("./image/bg1.jpg");
+  background-size: cover;
+}
+.chart img{
+  border: 1px solid black;
+  height: 69px;
+  width: 69px;
+}
